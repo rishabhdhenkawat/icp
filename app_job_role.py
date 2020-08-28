@@ -460,7 +460,7 @@ def result():
 #if __name__ == '__main__':
 if __name__ == '__main__':
     from gensim.models.keyedvectors import KeyedVectors
-    word_vect = KeyedVectors.load_word2vec_format("./SO_vectors_200.bin", binary=True)
+    word_vect = KeyedVectors.load_word2vec_format("SO_vectors_200.bin", binary=True)
     from spacy.matcher import Matcher
     import spacy
 
